@@ -1,0 +1,45 @@
+Format: 1.8
+Date: Tue, 14 Nov 2023 11:22:26 +0200
+Source: libpciaccess (0.17-3)
+Binary: libpciaccess-dev libpciaccess0 libpciaccess0-dbgsym libpciaccess0-udeb
+Architecture: amd64
+Version: 0.17-3+b3
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Changed-By: Timo Aaltonen <tjaalton@debian.org>
+Description:
+ libpciaccess-dev - Generic PCI access library for X - development files
+ libpciaccess0 - Generic PCI access library for X
+ libpciaccess0-udeb - Generic PCI access library for X (udeb)
+Closes: 1035622
+Changes:
+ libpciaccess (0.17-3+b3) unstable; urgency=medium
+ .
+   [ Debian Janitor ]
+   * Bump debhelper from old 12 to 13.
+     + debian/rules: Drop --fail-missing argument to dh_missing, which is now the
+       default.
+   * Replace XC-Package-Type with Package-Type.
+   * Update standards version to 4.6.1, no changes needed.
+ .
+   [ Samuel Thibault ]
+   * symbols: Add hurd-amd64 symbols. (Closes: #1035622)
+Checksums-Sha1:
+ fd37d89e72dc56eaeb1b7aaf658c579bce83a8d7 55240 libpciaccess-dev_0.17-3+b3_amd64.deb
+ e250fef0646738627320fc8c783701fa6283c749 42800 libpciaccess0-dbgsym_0.17-3+b3_amd64.deb
+ 8746d3fab912558b88fcb868fe3969ac8239b036 14828 libpciaccess0-udeb_0.17-3+b3_amd64.udeb
+ 60396406b7b02bae9b4d271092f199921db3fafd 51716 libpciaccess0_0.17-3+b3_amd64.deb
+ 05e57cc7cfb7fe1377c740306f600404469d81c9 5706 libpciaccess_0.17-3+b3_amd64.buildinfo
+Checksums-Sha256:
+ e4cf805290e9d3c0bb19c28d33654b68b18eae3b8403b8ae87704321b6f981be 55240 libpciaccess-dev_0.17-3+b3_amd64.deb
+ c046c4349136205880b8a79109e015f2d0d12b2c5e4d75462313264c0aa4d574 42800 libpciaccess0-dbgsym_0.17-3+b3_amd64.deb
+ 33137a0681d080a91a0bb6f72cb3213484c7eb5c5e998e8a614fcade7bbff632 14828 libpciaccess0-udeb_0.17-3+b3_amd64.udeb
+ 5e864539075de22ab9f5a24b7655b98a8653b2bfeee9697f3158fde280e7c92f 51716 libpciaccess0_0.17-3+b3_amd64.deb
+ 67a7820927633723e2156366e364ef2dfb4a804e8b0f359445b1dfca1e5aef95 5706 libpciaccess_0.17-3+b3_amd64.buildinfo
+Files:
+ d6e23aa141048f344324844de7a80b71 55240 libdevel optional libpciaccess-dev_0.17-3+b3_amd64.deb
+ 8ec8e75d56f4e9d1e347e3490bba479a 42800 debug optional libpciaccess0-dbgsym_0.17-3+b3_amd64.deb
+ ec82b7088afb4938c0f13e7465a99f69 14828 debian-installer optional libpciaccess0-udeb_0.17-3+b3_amd64.udeb
+ af1dc9e985bd247dfcb42c418a405be4 51716 libs optional libpciaccess0_0.17-3+b3_amd64.deb
+ 9822e2dd971e00415d71fa1607d247ea 5706 devel optional libpciaccess_0.17-3+b3_amd64.buildinfo

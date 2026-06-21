@@ -1,0 +1,52 @@
+libpciaccess (0.17-3+b3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 12 to 13.
+    + debian/rules: Drop --fail-missing argument to dh_missing, which is now the
+      default.
+  * Replace XC-Package-Type with Package-Type.
+  * Update standards version to 4.6.1, no changes needed.
+
+  [ Samuel Thibault ]
+  * symbols: Add hurd-amd64 symbols. (Closes: #1035622)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 14 Nov 2023 11:22:26 +0200
+
+libpciaccess (0.17-2) unstable; urgency=medium
+
+  * symbols: Update for Hurd. (Closes: #1023418)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 08 Nov 2022 12:39:24 +0200
+
+libpciaccess (0.17-1) unstable; urgency=medium
+
+  * New upstream release.
+  * symbols: Updated.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 03 Nov 2022 16:10:09 +0100
+
+libpciaccess (0.16-3) unstable; urgency=medium
+
+  [ Pino Toscano ]
+  * Update the symbols file for Hurd and kFreeBSD archs.
+  * Add Build-Depends-Package to the symbols file.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 12 Jan 2022 15:33:02 +0200
+
+libpciaccess (0.16-2) unstable; urgency=medium
+
+   * libpciaccess0.symbols.hurd-i386: Add a symbols file for Hurd.
+     (Closes: #997009)
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 12 Jan 2022 15:24:41 +0200
+
+libpciaccess (0.16-1) unstable; urgency=medium
+
+  * New upstream release.
+  * control, rules: Use debhelper-compat, bump to 12.
+  * control: Bump policy to 4.5.0.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Fri, 31 Jul 2020 16:14:47 +0300
+
+# Older entries have been removed from this changelog.
+# To read the complete changelog use `apt changelog libpciaccess-dev`.

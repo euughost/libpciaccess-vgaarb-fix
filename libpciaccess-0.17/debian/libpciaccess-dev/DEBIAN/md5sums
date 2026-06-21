@@ -1,0 +1,6 @@
+b1287d2aced8d9096717b22b2989c9d6  usr/include/pciaccess.h
+f138ccf9f065172ebb44803529bda718  usr/lib/x86_64-linux-gnu/libpciaccess.a
+36773988a2f678c45238e8117663bc85  usr/lib/x86_64-linux-gnu/pkgconfig/pciaccess.pc
+de327633aad92f53f131525712ffbbe1  usr/share/doc/libpciaccess-dev/changelog.Debian.gz
+a423fa4a5774a1a058b1789e4089f0ed  usr/share/doc/libpciaccess-dev/changelog.gz
+2a986195bd32264e1b2d36c39c95f26d  usr/share/doc/libpciaccess-dev/copyright

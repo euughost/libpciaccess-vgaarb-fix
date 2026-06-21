@@ -1,0 +1,4 @@
+debian/tmp/usr/lib/x86_64-linux-gnu/pkgconfig
+debian/tmp/usr/lib/x86_64-linux-gnu/libpciaccess.a
+debian/tmp/usr/lib/x86_64-linux-gnu/libpciaccess.so
+debian/tmp/usr/include

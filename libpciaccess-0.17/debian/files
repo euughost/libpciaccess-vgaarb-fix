@@ -1,0 +1,5 @@
+libpciaccess-dev_0.17-3+b3_amd64.deb libdevel optional
+libpciaccess0-dbgsym_0.17-3+b3_amd64.deb debug optional automatic=yes
+libpciaccess0-udeb_0.17-3+b3_amd64.udeb debian-installer optional
+libpciaccess0_0.17-3+b3_amd64.deb libs optional
+libpciaccess_0.17-3+b3_amd64.buildinfo devel optional

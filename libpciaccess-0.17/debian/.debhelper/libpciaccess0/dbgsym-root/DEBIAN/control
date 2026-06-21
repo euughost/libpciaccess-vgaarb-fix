@@ -1,0 +1,13 @@
+Package: libpciaccess0-dbgsym
+Source: libpciaccess (0.17-3)
+Version: 0.17-3+b3
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 59
+Depends: libpciaccess0 (= 0.17-3+b3)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for libpciaccess0
+Build-Ids: 0bbf19452aa8a0ba0a0c5e14dff7ef51ad3ceab3
